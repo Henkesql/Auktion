@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, jsonify, request
 from sqlalchemy import create_engine, URL, text
 from sqlalchemy.orm import sessionmaker
@@ -287,6 +286,3 @@ def delete_hotel(hotel_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
-=======
-# Prispressaren
->>>>>>> e3466b5d8a799138d9d3f6a8c4fd31314c8072b5
